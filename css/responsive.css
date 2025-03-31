@@ -1,5 +1,20 @@
 /* Soluzione qui */
 
+/* LARGE MOBILE */
+
+@media screen and (min-width: 576px)
+{
+.social-networks .label{
+    display: inline-block;
+    padding: 5px;
+ }
+    
+    .clearfix img{
+    float: left;
+    margin: 20px;
+    }
+}
+
 /* TABLET */
 
 @media screen and (min-width:768px)
@@ -37,6 +52,8 @@ margin: 20px;
 
 /* FINE TABLET */
 
+/* DESKTOP */
+
 @media screen and (min-width: 992px)
  {
  .container{
@@ -51,6 +68,7 @@ margin: 20px;
     display: inline-block;
     padding: 5px;
  }
+
 .recipe-card {
 display: flex;
  }
@@ -64,3 +82,7 @@ display: flex;
  }
 
 } 
+
+/* FINE DESKTOP */
+
+
