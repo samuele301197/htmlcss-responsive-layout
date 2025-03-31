@@ -1,7 +1,10 @@
 /* Soluzione qui */
 
-@media screen and (min-width:768px){
+/* TABLET */
 
+@media screen and (min-width:768px)
+
+{
 .topbar{
 position: relative;
 }
@@ -30,3 +33,34 @@ position: relative;
 float: left;
 margin: 20px;
 }
+}
+
+/* FINE TABLET */
+
+@media screen and (min-width: 992px)
+ {
+ .container{
+    width: 70%;
+ }
+
+ .recipe-origin{
+    display: inline;
+ }
+
+ .social-networks .label{
+    display: inline-block;
+    padding: 5px;
+ }
+.recipe-card {
+display: flex;
+ }
+
+ .recipe-video {
+    width: 70%;
+}
+
+ .recipe-info{
+    width: 30%;
+ }
+
+} 
