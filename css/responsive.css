@@ -13,7 +13,10 @@
     float: left;
     margin: 20px;
     }
+
 }
+
+/* FINE LARGE MOBILE */
 
 /* TABLET */
 
@@ -48,6 +51,11 @@ position: relative;
 float: left;
 margin: 20px;
 }
+
+.social-networks .label{
+display: none;
+}
+
 }
 
 /* FINE TABLET */
