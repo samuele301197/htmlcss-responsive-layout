@@ -1,1 +1,32 @@
 /* Soluzione qui */
+
+@media screen and (min-width:768px){
+
+.topbar{
+position: relative;
+}
+
+#logo{
+    position: absolute;
+    z-index: 999;
+    left: 20px;
+    top: 0;
+}
+
+.container{
+    width: 80%;
+}
+
+.quick-notes ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ads{
+    display: block;
+}
+
+.clearfix img{
+float: left;
+margin: 20px;
+}
