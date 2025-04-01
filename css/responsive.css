@@ -93,6 +93,14 @@ display: flex;
     width: 30%;
  }
 
+ .quick-notes ul{
+    display: block;
+}
+
+.quick-notes li {
+    width: 30%;
+}
+
 } 
 
 /* FINE DESKTOP */
