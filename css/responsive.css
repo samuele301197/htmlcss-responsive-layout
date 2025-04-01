@@ -43,6 +43,10 @@ position: relative;
     flex-wrap: wrap;
 }
 
+.quick-notes li {
+    width: calc(100% / 3);
+}
+
 .ads{
     display: block;
 }
